@@ -53,7 +53,12 @@ const config = {
           src: 'img/docusaurus.png',
         },
         items: [
-          {to: '/blog', label: 'Summary', position: 'left'},
+          {
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "Blog",
+          },
           {
             href: 'https://github.com/RingoMar',
             label: 'GitHub',
